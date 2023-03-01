@@ -45,6 +45,7 @@ class Main {
 				try {
 					BufferedReader reader = new BufferedReader(new FileReader("names.txt"));
 					String line;
+                    System.out.println("Current Students:");
 					while((line = reader.readLine()) != null){
 						System.out.println(line);}
                     reader.close();
