@@ -13,7 +13,7 @@ class Main {
         list.add("Press 2 to learn about the job.");
         list.add("Press 3 to learn about demand.");
         list.add("Press 4 to view current students.");
-        list.add("Press 5 to quit");
+        list.add("Press 5 to quit.");
         for (String element : list) {
             System.out.println(element);
         }        
