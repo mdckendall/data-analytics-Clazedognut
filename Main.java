@@ -9,7 +9,7 @@ class Main {
 	public static void main(String[] args) throws FileNotFoundException {
         int user;
         ArrayList<String> list = new ArrayList<>();
-        list.add("Press 1 to learn about the salary");
+        list.add("Press 1 to learn about salary");
         list.add("Press 2 to learn about the job");
         list.add("Press 3 to learn about demand");
         list.add("Press 4 to view current students");
